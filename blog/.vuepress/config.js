@@ -1,10 +1,9 @@
 module.exports = {
     title: "chh's Blog", // Title for the site. This will be displayed in the navbar.
-    dest: './dist',
     base: '/vuePressBlog/',
+    dest: './dist',
     repo: 'https://github.com/changhengheng/vuePressBlog',
     theme: '@vuepress/theme-blog',
-    permalink: "/:year/:month/:day/:slug",
     themeConfig: {
         dateFormat: 'YYYY-MM-DD',
         nav: [
