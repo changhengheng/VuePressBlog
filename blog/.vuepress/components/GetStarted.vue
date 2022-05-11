@@ -9,6 +9,7 @@
   margin 50px 0
 
   > a
+    color hotpink
     text-decoration none
     font-size 1.2rem
     border 1px solid 

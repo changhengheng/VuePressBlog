@@ -8,8 +8,8 @@ module.exports = {
         dateFormat: 'YYYY-MM-DD',
         nav: [
             {
-                text: 'Tags',
-                link: '/tag/',
+                text: 'InformalEssay',
+                link: '/informalEssay/',
             },
             {
                 text: 'Blog',
@@ -19,6 +19,10 @@ module.exports = {
                 text: 'Writings',
                 link: '/writings/',
             },
+            {
+                text: 'Tags',
+                link: '/tag/',
+            },
         ],
         footer: {
             contact: [
@@ -27,8 +31,22 @@ module.exports = {
                     link: 'https://github.com/changhengheng/vuePressBlog',
                 },
             ],
+            copyright: [
+                {
+                    text: 'MIT Licensed | Copyright © 2018-present Vue.js',
+                },
+            ],
         },
         directories: [
+            {
+                id: 'informalEssay',
+                dirname: '_informalEssay',
+                path: '/informalEssay/',
+                frontmatter: { //Front matter for entry page.
+                    tag: 'informalEssay'
+                },
+                itemPermalink: '/informalEssay/:year/:month/:day/:slug',
+            },
             {
                 id: 'post',
                 dirname: '_posts',
@@ -45,6 +63,6 @@ module.exports = {
                 itemPermalink: '/writings/:year/:month/:day/:slug',
             },
         ],
-        smoothScroll:true,
+        smoothScroll: true,
     }
 }
