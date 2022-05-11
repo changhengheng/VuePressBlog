@@ -16,7 +16,7 @@ export default {
   mounted() {
     this.timer = setInterval(() => {
       this.timestamp = Date.now();
-    }, 200);
+    }, 50);
   },
   destroyed() {
     clearInterval(this.timer);

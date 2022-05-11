@@ -8,7 +8,9 @@ title: About
 未到千般恨不消。
 及至到来无一事，
 庐山烟雨浙江潮。
+
 <Timestamp/>
+
 <GetStarted/>
 
 <style lang="stylus" scoped>

@@ -8,16 +8,8 @@ module.exports = {
         dateFormat: 'YYYY-MM-DD',
         nav: [
             {
-                text: 'InformalEssay',
-                link: '/informalEssay/',
-            },
-            {
                 text: 'Blog',
-                link: '/posts/',
-            },
-            {
-                text: 'Writings',
-                link: '/writings/',
+                link: '/informalessay/',
             },
             {
                 text: 'Tags',
@@ -33,7 +25,7 @@ module.exports = {
             ],
             copyright: [
                 {
-                    text: 'MIT Licensed | Copyright © 2018-present Vue.js',
+                    text: 'MIT Licensed | Copyright © 2022-present Vue.js',
                 },
             ],
         },
@@ -41,26 +33,9 @@ module.exports = {
             {
                 id: 'informalEssay',
                 dirname: '_informalEssay',
-                path: '/informalEssay/',
-                frontmatter: { //Front matter for entry page.
-                    tag: 'informalEssay'
-                },
-                itemPermalink: '/informalEssay/:year/:month/:day/:slug',
-            },
-            {
-                id: 'post',
-                dirname: '_posts',
-                path: '/posts/',
-                itemPermalink: '/posts/:year/:month/:day/:slug',
-            },
-            {
-                id: 'writings',
-                dirname: '_writings',
-                path: '/writings/',
-                frontmatter: { //Front matter for entry page.
-                    tag: 'writings'
-                },
-                itemPermalink: '/writings/:year/:month/:day/:slug',
+                path: '/informalessay/',
+                title:'博客',
+                itemPermalink: '/informalessay/:year/:month/:day/:slug'
             },
         ],
         smoothScroll: true,
