@@ -1,8 +1,14 @@
 <template>
   <div class="start">
-    <router-link to="/informalessay/">Get Started~</router-link>
+    <router-link :to="path">{{pageTitle}}</router-link>
   </div>
 </template>
+
+<script>
+export default {
+  props:["path","pageTitle"],
+}
+</script>
 
 <style lang="stylus" scoped>
 .start

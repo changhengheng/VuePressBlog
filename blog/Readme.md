@@ -11,14 +11,12 @@ title: About
 
 <Timestamp/>
 
-<GetStarted/>
+<GetStarted path="/informalessay/" pageTitle="Get Started~" />
 
-<style lang="stylus" scoped>
-p
-  font-size 20px
+<GetStarted path="/tasklibrary/" pageTitle="任务库" />
 
-@media (max-width: $MQMobile)
-  .beginning
-    margin-top 0 !important
-    text-align center
-</style>
+<GetStarted path="/inbox/" pageTitle="收集箱" />
+
+<GetStarted path="/AesopsFables/" pageTitle="伊索寓言" />
+
+<GetStarted path="/WorldlyWisdom/" pageTitle="普世智慧" />
