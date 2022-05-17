@@ -35,7 +35,10 @@ module.exports = {
                 dirname: '_informalEssay',
                 path: '/informalessay/',
                 title:'博客',
-                itemPermalink: '/informalessay/:year/:month/:day/:slug'
+                itemPermalink: '/informalessay/:year/:month/:day/:slug',
+                frontmatter:{ //Front matter for entry page.
+                    tag: 'informalessay'
+                },
             },
             {
                 id: 'tasklibrary',
@@ -64,6 +67,20 @@ module.exports = {
                 path: '/AesopsFables/',
                 title:'伊索寓言',
                 itemPermalink: '/AesopsFables/:year/:month/:day/:slug'
+            },
+            {
+                id: 'guide',
+                dirname: '_guide',
+                path: '/guide/',
+                title:'食用指南',
+                itemPermalink: '/guide/:year/:month/:day/:slug'
+            },
+            {
+                id: 'RelearnBasicVocabulary',
+                dirname: '_RelearnBasicVocabulary',
+                path: '/RelearnBasicVocabulary/',
+                title:'重学基础词汇',
+                itemPermalink: '/RelearnBasicVocabulary/:year/:month/:day/:slug'
             },
         ],
         smoothScroll: true,
