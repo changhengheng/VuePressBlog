@@ -89,7 +89,7 @@ module.exports = {
             owner: 'changhengheng',
             repo: 'https://github.com/changhengheng/vuePressBlog',
             clientId: 'fda7b35eaf2ce20f243c',
-            clientSecret: 'f4a65983a07792307104a1b38c45773000abe3fe',
+            clientSecret: '0a4507fec54caaf62f05388e9692c99955c1e57a',
         }
     },
 }
