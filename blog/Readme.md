@@ -9,8 +9,9 @@
 
 <GetStarted path="/guide/" pageTitle="食用指南" />
 <GetStarted path="/informalessay/" pageTitle="Get Started~" />
+<GetStarted path="/FollowuUpExercise/" pageTitle="跟进练习" />
 
-<nav style="display:flex;justify-content:space-around;">
+<nav style="display:flex;justify-content:space-around;flex-warp:wrap;flex-shrink:0;">
     <GetStarted path="/tasklibrary/" pageTitle="任务库" />
     <GetStarted path="/inbox/" pageTitle="收集箱" />
     <GetStarted path="/AesopsFables/" pageTitle="伊索寓言" />

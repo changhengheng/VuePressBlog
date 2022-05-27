@@ -82,6 +82,13 @@ module.exports = {
                 title: '重学基础词汇',
                 itemPermalink: '/RelearnBasicVocabulary/:year/:month/:day/:slug'
             },
+            {
+                id: 'FollowuUpExercise',
+                dirname: '_Follow-upExercise',
+                path: '/followuUpExercise/',
+                title: '跟进练习',
+                itemPermalink: '/followuUpExercise/:year/:month/:day/:slug'
+            },
         ],
         smoothScroll: true,
         comment: {
