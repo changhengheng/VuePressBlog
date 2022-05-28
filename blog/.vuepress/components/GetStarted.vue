@@ -1,12 +1,13 @@
 <template>
   <div class="start">
-    <router-link :to="path">{{pageTitle}}</router-link>
+    <router-link :to="routerPath" v-if="routerPath">{{pageTitle}}</router-link>
+    <a :href="notePath" target="_blank" v-else>{{pageTitle}}</a>
   </div>
 </template>
 
 <script>
 export default {
-  props:["path","pageTitle"],
+  props:["routerPath","pageTitle","notePath"],
 }
 </script>
 

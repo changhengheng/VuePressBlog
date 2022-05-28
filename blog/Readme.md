@@ -7,13 +7,26 @@
 
 <Timestamp/>
 
-<GetStarted path="/guide/" pageTitle="食用指南" />
-<GetStarted path="/informalessay/" pageTitle="Get Started~" />
-<GetStarted path="/FollowuUpExercise/" pageTitle="跟进练习" />
+<GetStarted routerPath="/guide/" pageTitle="食用指南" />
+<GetStarted routerPath="/informalessay/" pageTitle="Get Started~" />
 
+<h1>工作流</h1>
+<div>
+    <GetStarted routerPath="/FollowuUpExercise/" pageTitle="跟进练习" />
+</div>
+
+<h1>温故而知新</h1>
 <nav style="display:flex;justify-content:space-around;flex-warp:wrap;flex-shrink:0;">
-    <GetStarted path="/tasklibrary/" pageTitle="任务库" />
-    <GetStarted path="/inbox/" pageTitle="收集箱" />
-    <GetStarted path="/AesopsFables/" pageTitle="伊索寓言" />
-    <GetStarted path="/WorldlyWisdom/" pageTitle="普世智慧" />
+    <GetStarted notePath="https://changhengheng.github.io/npmNotes/" pageTitle="NPM" />
+    <GetStarted notePath="https://changhengheng.github.io/basisOfCriticalThinking/" pageTitle="批判性思考" />
+    <GetStarted notePath="https://changhengheng.github.io/npmNotes/" pageTitle="NPM" />
+    <GetStarted notePath="https://changhengheng.github.io/npmNotes/" pageTitle="NPM" />
+</nav>
+
+<h1>导航</h1>
+<nav style="display:flex;justify-content:space-around;flex-warp:wrap;flex-shrink:0;">
+    <GetStarted routerPath="/tasklibrary/" pageTitle="任务库" />
+    <GetStarted routerPath="/inbox/" pageTitle="收集箱" />
+    <GetStarted routerPath="/AesopsFables/" pageTitle="伊索寓言" />
+    <GetStarted routerPath="/WorldlyWisdom/" pageTitle="普世智慧" />
 </nav>
