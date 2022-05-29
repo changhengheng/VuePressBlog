@@ -12,6 +12,10 @@ module.exports = {
                 link: '/informalessay/',
             },
             {
+                text: '今日阅读',
+                link: '/ReadToday/',
+            },
+            {
                 text: 'Tags',
                 link: '/tag/',
             },
@@ -88,6 +92,13 @@ module.exports = {
                 path: '/followuUpExercise/',
                 title: '跟进练习',
                 itemPermalink: '/followuUpExercise/:year/:month/:day/:slug'
+            },
+            {
+                id: 'ReadToday',
+                dirname: '_ReadToday',
+                path: '/ReadToday/',
+                title: '今日阅读',
+                itemPermalink: '/ReadToday/:year/:month/:day/:slug'
             },
         ],
         smoothScroll: true,

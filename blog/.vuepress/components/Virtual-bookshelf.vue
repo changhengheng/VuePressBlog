@@ -1,12 +1,15 @@
 <template>
   <div class="bookshelf">
-    <div class="book" v-for="(book,index) in bookData" :key="book.id">
+    <div class="book" v-for="(book, index) in bookData" :key="book.id">
       <div class="side spine">
-        <span class="spine-title">{{book.title}}</span>
-        <span class="spine-author">{{book.author}}</span>
+        <span class="spine-title">{{ book.title }}</span>
+        <span class="spine-author">{{ book.author }}</span>
       </div>
-      <div class="side top">{{index}}</div>
-      <div class="side cover" :style="{'--url':`url(${book.bgimage})`}"></div>
+      <div class="side top">{{ index+1 }}</div>
+      <div
+        class="side cover"
+        :style="{ '--url': `url(${book.bgimage})` }"
+      ></div>
     </div>
   </div>
 </template>
@@ -14,9 +17,8 @@
 <script>
 export default {
   name: "Virtual-bookshelf",
-  props:["bookData"],
+  props: ["bookData"],
   mounted() {
-      console.log (this.bookData);
     function getRandomInt(min, max) {
       min = Math.ceil(min);
       max = Math.floor(max);
@@ -63,7 +65,7 @@ export default {
 };
 </script>
 
-<style>
+<style scope>
 :root {
   --argyle: repeating-linear-gradient(
       120deg,
