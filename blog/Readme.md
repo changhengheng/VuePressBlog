@@ -30,3 +30,6 @@
     <GetStarted routerPath="/AesopsFables/" pageTitle="伊索寓言" />
     <GetStarted routerPath="/WorldlyWisdom/" pageTitle="普世智慧" />
 </nav>
+
+<h1>虚拟书架</h1>
+<Virtual-bookshelf :bookData="[{bgimage:'https://s6.jpg.cm/2022/05/29/PGPoJT.jpg',title:'艺术的慰藉',author:' [英] 阿兰·德波顿 / [澳] 约翰·阿姆斯特朗',id:1},{bgimage:'https://s6.jpg.cm/2022/05/29/PGP4zE.png',title:'艺术:让人成为人',author:'[美] 理查德·加纳罗 / [美] 特尔玛·阿特休勒',id:2}]"/>
