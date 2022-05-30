@@ -13,7 +13,7 @@ module.exports = {
             },
             {
                 text: '今日阅读',
-                link: '/ReadToday/',
+                link: '/readtoday/',
             },
             {
                 text: 'Tags',
@@ -96,9 +96,9 @@ module.exports = {
             {
                 id: 'ReadToday',
                 dirname: '_ReadToday',
-                path: '/ReadToday/',
+                path: '/readtoday/',
                 title: '今日阅读',
-                itemPermalink: '/ReadToday/:year/:month/:day/:slug'
+                itemPermalink: '/readtoday/:year/:month/:day/:slug'
             },
         ],
         smoothScroll: true,

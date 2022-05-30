@@ -16,69 +16,17 @@
 </div>
 
 <h1>温故而知新</h1>
-<nav style="display:flex;justify-content:space-around;flex-warp:wrap;flex-shrink:0;">
-    <GetStarted notePath="https://changhengheng.github.io/npmNotes/" pageTitle="NPM" />
-    <GetStarted notePath="https://changhengheng.github.io/basisOfCriticalThinking/" pageTitle="批判性思考" />
-    <GetStarted notePath="https://changhengheng.github.io/npmNotes/" pageTitle="NPM" />
-    <GetStarted notePath="https://changhengheng.github.io/npmNotes/" pageTitle="NPM" />
+<nav style="display:flex;justify-content:space-around;flex-warp:wrap;">
+    <GetStarted notePath="https://changhengheng.github.io/npmNotes/" pageTitle="NPM" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
+    <GetStarted notePath="https://changhengheng.github.io/basisOfCriticalThinking/" pageTitle="批判性思考" style="flex-shrink:0;margin-left:20px;margin-right:20px"/>
+    <GetStarted notePath="https://changhengheng.github.io/npmNotes/" pageTitle="NPM" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
+    <GetStarted notePath="https://changhengheng.github.io/npmNotes/" pageTitle="NPM" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
 </nav>
 
 <h1>导航</h1>
 <nav style="display:flex;justify-content:space-around;flex-warp:wrap;flex-shrink:0;">
-    <GetStarted routerPath="/tasklibrary/" pageTitle="任务库" />
-    <GetStarted routerPath="/inbox/" pageTitle="收集箱" />
-    <GetStarted routerPath="/AesopsFables/" pageTitle="伊索寓言" />
-    <GetStarted routerPath="/WorldlyWisdom/" pageTitle="普世智慧" />
+    <GetStarted routerPath="/tasklibrary/" pageTitle="任务库" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
+    <GetStarted routerPath="/inbox/" pageTitle="收集箱" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
+    <GetStarted routerPath="/AesopsFables/" pageTitle="伊索寓言" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
+    <GetStarted routerPath="/WorldlyWisdom/" pageTitle="普世智慧" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
 </nav>
-
-<h1>虚拟书架</h1>
-<Virtual-bookshelf :bookData="[
-    {
-        bgimage:'https://s6.jpg.cm/2022/05/29/PGPoJT.jpg',
-        title:'艺术的慰藉',
-        author:'[英] 阿兰·德波顿 / [澳] 约翰·阿姆斯特朗',
-        id:9787568050685
-    },
-    {
-        bgimage:'https://s6.jpg.cm/2022/05/29/PGRg2C.jpg',
-        title:'艺术:让人成为人',
-        author:'[美] 理查德·加纳罗 / [美] 特尔玛·阿特休勒',
-        id:9787301162903
-    },
-    {
-        bgimage:'https://s6.jpg.cm/2022/05/29/PGROBQ.jpg',
-        title:'艺术心理学',
-        author:'[俄]列·谢·维戈茨基',
-        id:9787530656075
-    },
-    {
-        bgimage:'https://s6.jpg.cm/2022/05/30/PGWAcQ.jpg',
-        title:'写给大家看的设计书（第4版）',
-        author:'Robin Williams',
-        id:9787115404404
-    },
-    {
-        bgimage:'https://s6.jpg.cm/2022/05/30/PGWXvh.jpg',
-        title:'设计中的设计',
-        author:'[日] 原研哉',
-        id:9787209041065
-    },
-    {
-        bgimage:'https://s6.jpg.cm/2022/05/30/PGWNzU.jpg',
-        title:'富兰克林自传',
-        author:'[美国] 本杰明·富兰克林',
-        id:9787544750691
-    },
-    {
-        bgimage:'https://s6.jpg.cm/2022/05/30/PGWtJf.jpg',
-        title:'穷查理宝典',
-        author:'彼得·考夫曼',
-        id:9787508663326
-    },
-    {
-        bgimage:'https://s6.jpg.cm/2022/05/30/PGWYGO.webp',
-        title:'穷理查年鉴',
-        author:'[美国] 本杰明・富兰克林',
-        id:9787806616673
-    },
-]"/>
