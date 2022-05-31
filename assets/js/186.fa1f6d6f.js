@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[186],{811:function(t,e,n){"use strict";n.r(e);var s=n(21),l=Object(s.a)({},(function(){var t=this.$createElement,e=this._self._c||t;return e("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[e("p",[this._v("一念之间是选择的问题，但是问题不应该是在选择上，而是在锚上，改变锚就可以了。")])])}),[],!1,null,null,null);e.default=l.exports}}]);
