@@ -10,6 +10,11 @@
 <GetStarted routerPath="/guide/" pageTitle="食用指南" />
 <GetStarted routerPath="/informalessay/" pageTitle="Get Started~" />
 
+<h1>工具箱</h1>
+<div>
+    <GetStarted routerPath="/mind/" pageTitle="运用心智获得解放" />
+</div>
+
 <h1>工作流</h1>
 <div>
     <GetStarted routerPath="/FollowuUpExercise/" pageTitle="跟进练习" />

@@ -100,6 +100,13 @@ module.exports = {
                 title: '今日阅读',
                 itemPermalink: '/readtoday/:year/:month/:day/:slug'
             },
+            {
+                id: 'Mind',
+                dirname: '_Mind',
+                path: '/mind/',
+                title: '运用心智获得解放',
+                itemPermalink: '/mind/:year/:month/:day/:slug'
+            },
         ],
         smoothScroll: true,
         comment: {
