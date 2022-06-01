@@ -107,6 +107,13 @@ module.exports = {
                 title: '运用心智获得解放',
                 itemPermalink: '/mind/:year/:month/:day/:slug'
             },
+            {
+                id: 'Plan',
+                dirname: '_Plan',
+                path: '/plan/',
+                title: '计划',
+                itemPermalink: '/plan/:year/:month/:day/:slug'
+            },
         ],
         smoothScroll: true,
         comment: {

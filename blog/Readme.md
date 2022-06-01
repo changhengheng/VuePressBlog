@@ -13,6 +13,7 @@
 <h1>工具箱</h1>
 <div>
     <GetStarted routerPath="/mind/" pageTitle="运用心智获得解放" />
+    <GetStarted routerPath="/plan/" pageTitle="计划" />
 </div>
 
 <h1>工作流</h1>
