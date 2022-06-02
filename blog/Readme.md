@@ -72,7 +72,13 @@
     {
         bgimage:'https://s6.jpg.cm/2022/05/31/PG6Xdw.jpg',
         title:'钢琴师：二战期间华沙幸存记',
-        author:'(波)瓦迪斯瓦夫.什皮尔曼',
+        author:'(波)瓦迪斯瓦夫·什皮尔曼',
         id:9787020043422
+    },
+    {
+        bgimage:'https://s6.jpg.cm/2022/06/02/PGYvzp.jpg',
+        title:'抑郁是因为我想太多吗',
+        author:'［丹］皮亚·卡列\n森',
+        id:9787111695813
     }
 ]"/>
