@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[90],{743:function(t,e,n){"use strict";n.r(e);var s=n(21),l=Object(s.a)({},(function(){var t=this.$createElement,e=this._self._c||t;return e("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[e("p",[this._v("先找必要因素，学习也是，阅读也是，找必要因素都是为了促成理解、形成组块，进而涌现能力。")])])}),[],!1,null,null,null);e.default=l.exports}}]);

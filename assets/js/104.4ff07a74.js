@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[104],{729:function(t,n,e){"use strict";e.r(n);var s=e(21),l=Object(s.a)({},(function(){var t=this.$createElement,n=this._self._c||t;return n("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[n("p",[this._v("电脑（看网页很爽）\n跑步机\n电子秤\n电冰箱\n空调")])])}),[],!1,null,null,null);n.default=l.exports}}]);
