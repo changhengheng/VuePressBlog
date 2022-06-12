@@ -10,6 +10,8 @@
 <GetStarted routerPath="/guide/" pageTitle="食用指南" />
 <GetStarted routerPath="/informalessay/" pageTitle="Get Started~" />
 
+<img src="https://s6.jpg.cm/2022/06/02/PGY2jW.png">
+
 <h1>工具箱</h1>
 <div>
     <GetStarted routerPath="/mind/" pageTitle="运用心智获得解放" />
