@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[267],{893:function(t,e,n){"use strict";n.r(e);var s=n(21),l=Object(s.a)({},(function(){var t=this.$createElement,e=this._self._c||t;return e("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[e("p",[this._v("心理确实有点问题，需要通过实践进行训练来克服")])])}),[],!1,null,null,null);e.default=l.exports}}]);
