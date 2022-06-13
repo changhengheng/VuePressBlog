@@ -25,10 +25,10 @@
 
 <h1>温故而知新</h1>
 <nav style="display:flex;justify-content:space-around;flex-warp:wrap;">
-    <GetStarted notePath="https://changhengheng.github.io/npmNotes/" pageTitle="NPM" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
-    <GetStarted notePath="https://changhengheng.github.io/basisOfCriticalThinking/" pageTitle="批判性思考" style="flex-shrink:0;margin-left:20px;margin-right:20px"/>
-    <GetStarted notePath="https://changhengheng.github.io/vuepressNotes/" pageTitle="vuePress" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
-    <GetStarted notePath="https://changhengheng.github.io/typeScriptNotes/" pageTitle="TypeScript" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
+    <GetStarted notePath="https://changhengheng.github.io/NpmNotes/" pageTitle="NPM" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
+    <GetStarted notePath="https://changhengheng.github.io/BasisOfCriticalThinking/" pageTitle="批判性思考" style="flex-shrink:0;margin-left:20px;margin-right:20px"/>
+    <GetStarted notePath="https://changhengheng.github.io/VuePressNotes/" pageTitle="vuePress" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
+    <GetStarted notePath="https://changhengheng.github.io/TypeScriptNotes/" pageTitle="TypeScript" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
 </nav>
 
 <h1>导航</h1>

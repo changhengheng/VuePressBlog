@@ -11,6 +11,6 @@ cd blog/.vuepress/dist
 
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:changhengheng/vuePressBlog.git master:gh-pages
+git push -f git@github.com:changhengheng/VuePressBlog.git master:gh-pages
 
 cd -

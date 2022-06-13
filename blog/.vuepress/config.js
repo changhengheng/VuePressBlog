@@ -1,9 +1,9 @@
 module.exports = {
     title: "chh's Blog", // Title for the site. This will be displayed in the navbar.
-    base: '/vuePressBlog/',
+    base: '/VuePressBlog/',
     dest: './dist',
     theme: '@vuepress/theme-blog',
-    repo: 'https://github.com/changhengheng/vuePressBlog',
+    repo: 'https://github.com/changhengheng/VuePressBlog',
     themeConfig: {
         dateFormat: 'YYYY-MM-DD',
         nav: [
@@ -24,7 +24,7 @@ module.exports = {
             contact: [
                 {
                     type: 'github',
-                    link: 'https://github.com/changhengheng/vuePressBlog',
+                    link: 'https://github.com/changhengheng/VuePressBlog',
                 },
             ],
             copyright: [
@@ -119,7 +119,7 @@ module.exports = {
         comment: {
             service: 'vssue',
             owner: 'changhengheng',
-            repo: 'https://github.com/changhengheng/vuePressBlog',
+            repo: 'https://github.com/changhengheng/VuePressBlog',
             clientId: 'fda7b35eaf2ce20f243c',
             clientSecret: '0a4507fec54caaf62f05388e9692c99955c1e57a',
         }
