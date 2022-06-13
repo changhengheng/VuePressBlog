@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[223],{849:function(t,e,n){"use strict";n.r(e);var s=n(21),l=Object(s.a)({},(function(){var t=this.$createElement,e=this._self._c||t;return e("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[e("p",[this._v("联系（感情、友情、关系）就是不维护就没有的东西，这些东西是值的花时间去维护的")])])}),[],!1,null,null,null);e.default=l.exports}}]);

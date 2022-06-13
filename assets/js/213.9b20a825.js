@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[213],{839:function(t,n,e){"use strict";e.r(n);var s=e(21),l=Object(s.a)({},(function(){var t=this.$createElement,n=this._self._c||t;return n("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[n("p",[this._v("审美意识\n审美能力\n审美价值")])])}),[],!1,null,null,null);n.default=l.exports}}]);
