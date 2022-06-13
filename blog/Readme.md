@@ -27,8 +27,8 @@
 <nav style="display:flex;justify-content:space-around;flex-warp:wrap;">
     <GetStarted notePath="https://changhengheng.github.io/npmNotes/" pageTitle="NPM" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
     <GetStarted notePath="https://changhengheng.github.io/basisOfCriticalThinking/" pageTitle="批判性思考" style="flex-shrink:0;margin-left:20px;margin-right:20px"/>
-    <GetStarted notePath="https://changhengheng.github.io/npmNotes/" pageTitle="NPM" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
-    <GetStarted notePath="https://changhengheng.github.io/npmNotes/" pageTitle="NPM" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
+    <GetStarted notePath="https://changhengheng.github.io/vuepressNotes/" pageTitle="vuePress" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
+    <GetStarted notePath="https://changhengheng.github.io/typeScriptNotes/" pageTitle="TypeScript" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
 </nav>
 
 <h1>导航</h1>
@@ -39,7 +39,7 @@
     <GetStarted routerPath="/WorldlyWisdom/" pageTitle="普世智慧" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
 </nav>
 
-<h1>枕边书</h1>
+<h1>一些书</h1>
 <Virtual-bookshelf :bookData="[
     {
         bgimage:'https://s6.jpg.cm/2022/05/31/PG6uqk.jpg',
@@ -82,5 +82,23 @@
         title:'抑郁是因为我想太多吗',
         author:'［丹］皮亚·卡列\n森',
         id:9787111695813
-    }
+    },
+    {
+        bgimage:'https://s6.jpg.cm/2022/06/13/PLuG7D.jpg',
+        title:'从自我苛求中解放出来',
+        author:'[法]弗雷德里克•方热',
+        id:9787807681359
+    },
+    {
+        bgimage:'https://s6.jpg.cm/2022/06/13/PLuISp.jpg',
+        title:'缺爱',
+        author:' [法] 罗伯特·纳伯格',
+        id:9787559441607
+    },
+    {
+        bgimage:'https://s6.jpg.cm/2022/06/13/PLuL36.jpg',
+        title:'演说之禅——职场必知的幻灯片秘技',
+        author:'[美] 加尔·雷纳德）',
+        id:9787121313974
+    },
 ]"/>
