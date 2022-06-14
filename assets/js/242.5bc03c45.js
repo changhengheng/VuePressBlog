@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[242],{870:function(t,e,n){"use strict";n.r(e);var s=n(21),l=Object(s.a)({},(function(){var t=this.$createElement,e=this._self._c||t;return e("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[e("p",[this._v("可以无欲无求，但是随之而来的就是孤寂——《摆脱》")])])}),[],!1,null,null,null);e.default=l.exports}}]);
