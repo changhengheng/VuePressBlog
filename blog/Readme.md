@@ -24,7 +24,7 @@
 </div>
 
 <h1>温故而知新</h1>
-<nav style="display:flex;justify-content:space-around;flex-warp:wrap;">
+<nav style="display:flex;justify-content:space-around;flex-wrap:wrap;">
     <GetStarted notePath="https://changhengheng.github.io/NpmNotes/" pageTitle="NPM" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
     <GetStarted notePath="https://changhengheng.github.io/BasisOfCriticalThinking/" pageTitle="批判性思考" style="flex-shrink:0;margin-left:20px;margin-right:20px"/>
     <GetStarted notePath="https://changhengheng.github.io/VuePressNotes/" pageTitle="VuePress" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
