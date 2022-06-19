@@ -30,10 +30,11 @@
     <GetStarted notePath="https://changhengheng.github.io/VuePressNotes/" pageTitle="VuePress" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
     <GetStarted notePath="https://changhengheng.github.io/TypeScriptNotes/" pageTitle="TypeScript" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
     <GetStarted notePath="https://changhengheng.github.io/Vue3Notes/" pageTitle="Vue3" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
+    <GetStarted notePath="https://changhengheng.github.io/GitNotes/" pageTitle="Git" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
 </nav>
 
 <h1>导航</h1>
-<nav style="display:flex;justify-content:space-around;flex-warp:wrap;">
+<nav style="display:flex;justify-content:space-around;flex-wrap:wrap;">
     <GetStarted routerPath="/tasklibrary/" pageTitle="任务库" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
     <GetStarted routerPath="/inbox/" pageTitle="收集箱" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
     <GetStarted routerPath="/AesopsFables/" pageTitle="伊索寓言" style="flex-shrink:0;margin-left:20px;margin-right:20px" />
