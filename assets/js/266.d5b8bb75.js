@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[266],{891:function(t,e,n){"use strict";n.r(e);var s=n(21),l=Object(s.a)({},(function(){var t=this.$createElement,e=this._self._c||t;return e("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[e("p",[this._v("事情可以往复杂了看，也可以往纯粹了看，不要养成只使用其中一种策略的习惯，会陷入误区")])])}),[],!1,null,null,null);e.default=l.exports}}]);
